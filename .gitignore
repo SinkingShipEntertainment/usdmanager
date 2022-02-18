@@ -201,3 +201,6 @@ fabric.properties
 
 # VSCode
 .vscode/
+
+# SSE
+_rez_build
