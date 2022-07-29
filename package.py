@@ -32,7 +32,7 @@ private_build_requires = [
 
 variants = [
 	['platform-linux', 'arch-x86_64', 'os-centos-7', "python-3.7.7"],
-	['platform-linux', 'arch-x86_64', 'os-centos-7', "python-3.9.7"],
+	#['platform-linux', 'arch-x86_64', 'os-centos-7', "python-3.9.7"],  it doesn't work for 3.9.7
 ]
 
 def commands():
