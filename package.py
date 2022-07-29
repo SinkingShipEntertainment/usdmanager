@@ -23,7 +23,6 @@ with scope('config') as c:
 		c.release_packages_path = os.environ['SSE_REZ_REPO_RELEASE_EXT']
 
 requires = [
-	"python-3",
 	"pyside2_setup",
 	"qtpy",
 ]
@@ -32,7 +31,8 @@ private_build_requires = [
 ]
 
 variants = [
-	['platform-linux', 'arch-x86_64', 'os-centos-7'],
+	['platform-linux', 'arch-x86_64', 'os-centos-7', "python-3.7.7"],
+	['platform-linux', 'arch-x86_64', 'os-centos-7', "python-3.9.7"],
 ]
 
 def commands():
